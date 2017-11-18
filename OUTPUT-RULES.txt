@@ -1,0 +1,1928 @@
+
+ans =
+
+1. If (ChestPain is TypicalAngina) then (Result is Healthy) (1)                        
+2. If (ChestPain is AtypicalAngina) then (Result is LowRisk) (1)                       
+3. If (ChestPain is NonAnginalPain) then (Result is ModerateRisk) (1)                  
+4. If (ChestPain is Asymptomatic) then (Result is Risk) (1)                            
+5. If (ChestPain is Asymptomatic) then (Result is HighRisk) (1)                        
+6. If (BloodPressure is Low) then (Result is Healthy) (1)                              
+7. If (BloodPressure is Medium) then (Result is LowRisk) (1)                           
+8. If (BloodPressure is High) then (Result is ModerateRisk) (1)                        
+9. If (BloodPressure is High) then (Result is Risk) (1)                                
+10. If (BloodPressure is VeryHigh) then (Result is HighRisk) (1)                       
+11. If (Cholesterol is Low) then (Result is Healthy) (1)                               
+12. If (Cholesterol is Medium) then (Result is LowRisk) (1)                            
+13. If (Cholesterol is High) then (Result is ModerateRisk) (1)                         
+14. If (Cholesterol is High) then (Result is Risk) (1)                                 
+15. If (Cholesterol is VeyHigh) then (Result is HighRisk) (1)                          
+16. If (MaximumHeartRate is Low) then (Result is Healthy) (1)                          
+17. If (MaximumHeartRate is Medium) then (Result is LowRisk) (1)                       
+18. If (MaximumHeartRate is Medium) then (Result is ModerateRisk) (1)                  
+19. If (MaximumHeartRate is High) then (Result is Risk) (1)                            
+20. If (MaximumHeartRate is High) then (Result is HighRisk) (1)                        
+21. If (BloodSugar is VeryHigh) then (Result is ModerateRisk) (1)                      
+22. If (BloodSugar is VeryHigh) and (OldPeak is Low) then (Result is Healthy) (1)      
+23. If (BloodSugar is VeryHigh) and (OldPeak is Low) then (Result is LowRisk) (1)      
+24. If (BloodSugar is VeryHigh) and (OldPeak is Risk) then (Result is ModerateRisk) (1)
+25. If (BloodSugar is VeryHigh) and (OldPeak is Risk) then (Result is Risk) (1)        
+26. If (BloodSugar is VeryHigh) and (OldPeak is Terrible) then (Result is HighRisk) (1)
+
+
+ans =
+
+1. If (ChestPain is TypicalAngina) then (Result is Healthy) (1)                        
+2. If (ChestPain is AtypicalAngina) then (Result is LowRisk) (1)                       
+3. If (ChestPain is NonAnginalPain) then (Result is ModerateRisk) (1)                  
+4. If (ChestPain is Asymptomatic) then (Result is Risk) (1)                            
+5. If (ChestPain is Asymptomatic) then (Result is HighRisk) (1)                        
+6. If (BloodPressure is Low) then (Result is Healthy) (1)                              
+7. If (BloodPressure is Medium) then (Result is LowRisk) (1)                           
+8. If (BloodPressure is High) then (Result is ModerateRisk) (1)                        
+9. If (BloodPressure is High) then (Result is Risk) (1)                                
+10. If (BloodPressure is VeryHigh) then (Result is HighRisk) (1)                       
+11. If (Cholesterol is Low) then (Result is Healthy) (1)                               
+12. If (Cholesterol is Medium) then (Result is LowRisk) (1)                            
+13. If (Cholesterol is High) then (Result is ModerateRisk) (1)                         
+14. If (Cholesterol is High) then (Result is Risk) (1)                                 
+15. If (Cholesterol is VeyHigh) then (Result is HighRisk) (1)                          
+16. If (MaximumHeartRate is Low) then (Result is Healthy) (1)                          
+17. If (MaximumHeartRate is Medium) then (Result is LowRisk) (1)                       
+18. If (MaximumHeartRate is Medium) then (Result is ModerateRisk) (1)                  
+19. If (MaximumHeartRate is High) then (Result is Risk) (1)                            
+20. If (MaximumHeartRate is High) then (Result is HighRisk) (1)                        
+21. If (BloodSugar is VeryHigh) then (Result is ModerateRisk) (1)                      
+22. If (BloodSugar is VeryHigh) and (OldPeak is Low) then (Result is Healthy) (1)      
+23. If (BloodSugar is VeryHigh) and (OldPeak is Low) then (Result is LowRisk) (1)      
+24. If (BloodSugar is VeryHigh) and (OldPeak is Risk) then (Result is ModerateRisk) (1)
+25. If (BloodSugar is VeryHigh) and (OldPeak is Risk) then (Result is Risk) (1)        
+26. If (BloodSugar is VeryHigh) and (OldPeak is Terrible) then (Result is HighRisk) (1)
+
+{??? Attempt to reference field of non-structure array.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/showrule.m',50,0)">showrule at 50</a>
+numInputs=length(fis.input);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',384,0)">untitled>pushbutton9_Callback at 384</a>
+showrule(A)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pushbutton9_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Attempt to reference field of non-structure array.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/showrule.m',50,0)">showrule at 50</a>
+numInputs=length(fis.input);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',384,0)">untitled>pushbutton9_Callback at 384</a>
+showrule(A)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pushbutton9_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{Warning: Input should be a string.} 
+> In <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/strfun/strcat.m',85,1)">strcat at 85</a>
+  In <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',283,1)">GUIMain>menuImport_Callback at 283</a>
+  In <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,1)">gui_mainfcn at 96</a>
+  In <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,1)">GUIMain at 42</a>
+  In @(hObject,eventdata)GUIMain('menuImport_Callback',hObject,eventdata,guidata(hObject))
+{Warning: Input should be a string.} 
+> In <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/strfun/strcat.m',93,1)">strcat at 93</a>
+  In <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',283,1)">GUIMain>menuImport_Callback at 283</a>
+  In <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,1)">gui_mainfcn at 96</a>
+  In <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,1)">GUIMain at 42</a>
+  In @(hObject,eventdata)GUIMain('menuImport_Callback',hObject,eventdata,guidata(hObject))
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/iofun/fileread.m',21,0)">fileread at 21</a>
+Filename must not be empty.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',284,0)">GUIMain>menuImport_Callback at 284</a>
+textContent = fileread(fullpathname);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('menuImport_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uimenu Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',52,0)">evalfis at 52</a>
+The second argument must be a FIS structure.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Attempt to reference field of non-structure array.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',43,0)">plotfis at 43</a>
+numInputs=length(fis.input);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',265,0)">gui_mainfcn at 265</a>
+        feval(gui_State.gui_OutputFcn, gui_hFigure, [], gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',374,0)">untitled>pbPlot_Callback at 374</a>
+plot;
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPlot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Attempt to reference field of non-structure array.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',43,0)">plotfis at 43</a>
+numInputs=length(fis.input);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',265,0)">gui_mainfcn at 265</a>
+        feval(gui_State.gui_OutputFcn, gui_hFigure, [], gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',374,0)">untitled>pbPlot_Callback at 374</a>
+plot;
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPlot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> get
+Invalid handle object.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/uitools/movegui.m',115,0)">movegui at 115</a>
+oldposmode = get(fig,'ActivePositionProperty');
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/graphics/openfig.m',109,0)">openfig at 109</a>
+        movegui(fig(n), 'onscreen');
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',286,0)">gui_mainfcn>local_openfig at 286</a>
+    gui_hFigure = openfig(name, singleton, visible);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',234,0)">gui_mainfcn at 234</a>
+            gui_hFigure = local_openfig(gui_State.gui_Name, 'reuse',gui_Visible);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',40,0)">plot at 40</a>
+    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',86,0)">plot>closeplot_Callback at 86</a>
+delete(plot);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)plot('closeplot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error using ==> set
+Error while evaluating uicontrol Callback
+
+??? Error while evaluating uicontrol Callback
+
+{??? Attempt to reference field of non-structure array.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',43,0)">plotfis at 43</a>
+numInputs=length(fis.input);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',265,0)">gui_mainfcn at 265</a>
+        feval(gui_State.gui_OutputFcn, gui_hFigure, [], gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',374,0)">untitled>pbPlot_Callback at 374</a>
+plot;
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPlot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Attempt to reference field of non-structure array.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',43,0)">plotfis at 43</a>
+numInputs=length(fis.input);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',263,0)">gui_mainfcn at 263</a>
+        [varargout{1:nargout}] = feval(gui_State.gui_OutputFcn, gui_hFigure, [],
+        gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',40,0)">plot at 40</a>
+    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',86,0)">plot>closeplot_Callback at 86</a>
+delete(plot);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)plot('closeplot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Attempt to reference field of non-structure array.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',43,0)">plotfis at 43</a>
+numInputs=length(fis.input);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',263,0)">gui_mainfcn at 263</a>
+        [varargout{1:nargout}] = feval(gui_State.gui_OutputFcn, gui_hFigure, [],
+        gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',40,0)">plot at 40</a>
+    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',86,0)">plot>closeplot_Callback at 86</a>
+delete(plot);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)plot('closeplot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',399,0)">untitled>pbPrec_Callback at 399</a>
+if(resFinal>0.92 && resFinal<2)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPrec_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{Warning: Invalid string for Icon in MSGBOX.} 
+> In <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/uitools/msgbox.m',142,1)">msgbox at 142</a>
+  In <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',581,1)">untitled>pbLoadSys_Callback at 581</a>
+  In <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,1)">gui_mainfcn at 96</a>
+  In <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,1)">untitled at 42</a>
+  In @(hObject,eventdata)untitled('pbLoadSys_Callback',hObject,eventdata,guidata(hObject))
+{??? Undefined function or variable "numInputMFs".
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/discfis.m',33,0)">discfis at 33</a>
+numInputs=length(numInputMFs);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',59,0)">plotfis at 59</a>
+[xi,yi,xo,yo,r]=discfis(fis,181);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',265,0)">gui_mainfcn at 265</a>
+        feval(gui_State.gui_OutputFcn, gui_hFigure, [], gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',374,0)">untitled>pbPlot_Callback at 374</a>
+plot;
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPlot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Undefined function or variable "numInputMFs".
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/showrule.m',55,0)">showrule at 55</a>
+totalInputMFs=sum(numInputMFs);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',384,0)">untitled>pushbutton9_Callback at 384</a>
+showrule(A)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pushbutton9_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+uiopen('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.fig', true);
+{??? Undefined function or variable "numInputMFs".
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/discfis.m',33,0)">discfis at 33</a>
+numInputs=length(numInputMFs);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',59,0)">plotfis at 59</a>
+[xi,yi,xo,yo,r]=discfis(fis,181);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',263,0)">gui_mainfcn at 263</a>
+        [varargout{1:nargout}] = feval(gui_State.gui_OutputFcn, gui_hFigure, [],
+        gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',40,0)">plot at 40</a>
+    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',86,0)">plot>closeplot_Callback at 86</a>
+delete(plot);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)plot('closeplot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+??? Error using ==> set
+Error while evaluating uicontrol Callback
+
+??? Error while evaluating uicontrol Callback
+
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+     2
+
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+     2
+
+{??? Error using ==> dataread
+Second input must be a filename or string to parse.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/strfun/strread.m',51,0)">strread at 51</a>
+    [varargout{1:nlhs}]=dataread('string',varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',552,0)">untitled>pbAddruleFile_Callback at 552</a>
+   [px py pz pa pb pc pxx pyy pzz] = strread(tline,'%d %d %d %d %d %d %d %d %d');
+} 
+??? Error while evaluating uicontrol Callback
+
+     2
+
+{??? Error using ==> dataread
+Trouble reading integer from file (row 1, field 1) ==> ans =
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/strfun/strread.m',51,0)">strread at 51</a>
+    [varargout{1:nlhs}]=dataread('string',varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',278,0)">untitled>pbAddoutFile_Callback at 278</a>
+            [st,en] = strread(tline,'%d %d');
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Subscripted assignment dimension mismatch.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',555,0)">untitled>pbAddruleFile_Callback at 555</a>
+   ruleList(k,1) = px;
+} 
+??? Error while evaluating uicontrol Callback
+
+clc
+{??? Subscripted assignment dimension mismatch.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',555,0)">untitled>pbAddruleFile_Callback at 555</a>
+   ruleList(k,1) = px;
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Subscripted assignment dimension mismatch.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',555,0)">untitled>pbAddruleFile_Callback at 555</a>
+   ruleList(k,1) = px;
+} 
+??? Error while evaluating uicontrol Callback
+
+CLC
+{??? Undefined function or variable 'CLC'.
+} 
+clc
+{??? Subscripted assignment dimension mismatch.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',555,0)">untitled>pbAddruleFile_Callback at 555</a>
+   ruleList(k,1) = px;
+} 
+??? Error while evaluating uicontrol Callback
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/getfis.m',33,1)">getfis at 33</a>
+if isfield(fis, 'input')
+
+{??? Output argument "out" (and maybe others) not assigned during call to
+"/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/getfis.m>getfis".
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/discfis.m',85,0)">discfis at 85</a>
+    rangeList=getfis(fis,'outrange');
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',59,0)">plotfis at 59</a>
+[xi,yi,xo,yo,r]=discfis(fis,181);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',265,0)">gui_mainfcn at 265</a>
+        feval(gui_State.gui_OutputFcn, gui_hFigure, [], gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',374,0)">untitled>pbPlot_Callback at 374</a>
+plot;
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPlot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+uiopen('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',1)
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+     2
+
+{??? Error using ==> dataread
+Second input must be a filename or string to parse.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/strfun/strread.m',51,0)">strread at 51</a>
+    [varargout{1:nlhs}]=dataread('string',varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',552,0)">untitled>pbAddruleFile_Callback at 552</a>
+   [px py pz pa pb pc pxx pyy pzz] = strread(tline,'%d %d %d %d %d %d %d %d %d');
+} 
+??? Error while evaluating uicontrol Callback
+
+clc
+{Warning: Invalid string for Icon in MSGBOX.} 
+> In <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/uitools/msgbox.m',142,1)">msgbox at 142</a>
+  In <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',581,1)">untitled>pbLoadSys_Callback at 581</a>
+  In <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,1)">gui_mainfcn at 96</a>
+  In <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,1)">untitled at 42</a>
+  In @(hObject,eventdata)untitled('pbLoadSys_Callback',hObject,eventdata,guidata(hObject))
+{??? Error using ==> horzcat
+CAT arguments dimensions are not consistent.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',148,0)">untitled>pbAddinFile_Callback at 148</a>
+    A = addvar(A,'input',VarName,[st en]);
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> dataread
+Second input must be a filename or string to parse.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/strfun/strread.m',51,0)">strread at 51</a>
+    [varargout{1:nlhs}]=dataread('string',varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',552,0)">untitled>pbAddruleFile_Callback at 552</a>
+   [px py pz pa pb pc pxx pyy pzz] = strread(tline,'%d %d %d %d %d %d %d %d %d');
+} 
+??? Error while evaluating uicontrol Callback
+
+     2
+
+clc
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+untitled
+{??? Index exceeds matrix dimensions.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/addmf.m',42,0)">addmf at 42</a>
+    MFindex=length(fis.input(varIndex).mf)+1;
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',165,0)">untitled>pbAddinFile_Callback at 165</a>
+               A = addmf(A,'input',t5,t0,t1,[t2 t3 t4 t6]);
+} 
+??? Error while evaluating uicontrol Callback
+
+     2
+
+{??? Error using ==> dataread
+Trouble reading integer from file (row 1, field 1) ==> ans =
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/strfun/strread.m',51,0)">strread at 51</a>
+    [varargout{1:nlhs}]=dataread('string',varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',278,0)">untitled>pbAddoutFile_Callback at 278</a>
+            [st,en] = strread(tline,'%d %d');
+} 
+??? Error while evaluating uicontrol Callback
+
+     2
+
+     1     0     0     0     0     0     1     1     1
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0
+
+{??? Error using ==> horzcat
+CAT arguments dimensions are not consistent.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',288,0)">untitled>pbAddoutFile_Callback at 288</a>
+    A = addvar(A,'output',VarName,[st en]);
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/graphics/hgload.m',155,0)">hgload>localCheckRecursion at 155</a>
+Recursion occurs when loading
+/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.fig.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/graphics/hgload.m',56,0)">hgload at 56</a>
+Guard = localCheckRecursion(fullpath);  %#ok<NASGU>
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/graphics/openfig.m',72,0)">openfig at 72</a>
+    [fig, savedvisible] = hgload(filename, struct('Visible','off'));
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',286,0)">gui_mainfcn>local_openfig at 286</a>
+    gui_hFigure = openfig(name, singleton, visible);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',159,0)">gui_mainfcn at 159</a>
+        gui_hFigure = local_openfig(gui_State.gui_Name, gui_SingletonOpt,
+        gui_Visible);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',374,0)">untitled>pbPlot_Callback at 374</a>
+plot;
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPlot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error using ==> struct2handle
+Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/getfis.m',221,0)">getfis at 221</a>
+consequent of rule 1 is empty.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/discfis.m',37,0)">discfis at 37</a>
+ruleList=getfis(fis,'ruleList');
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',59,0)">plotfis at 59</a>
+[xi,yi,xo,yo,r]=discfis(fis,181);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',265,0)">gui_mainfcn at 265</a>
+        feval(gui_State.gui_OutputFcn, gui_hFigure, [], gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',374,0)">untitled>pbPlot_Callback at 374</a>
+plot;
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPlot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/getfis.m',221,0)">getfis at 221</a>
+consequent of rule 1 is empty.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/discfis.m',37,0)">discfis at 37</a>
+ruleList=getfis(fis,'ruleList');
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',59,0)">plotfis at 59</a>
+[xi,yi,xo,yo,r]=discfis(fis,181);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',263,0)">gui_mainfcn at 263</a>
+        [varargout{1:nargout}] = feval(gui_State.gui_OutputFcn, gui_hFigure, [],
+        gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',40,0)">plot at 40</a>
+    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',86,0)">plot>closeplot_Callback at 86</a>
+delete(plot);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)plot('closeplot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/getfis.m',221,0)">getfis at 221</a>
+consequent of rule 1 is empty.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/discfis.m',37,0)">discfis at 37</a>
+ruleList=getfis(fis,'ruleList');
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/plotfis.m',59,0)">plotfis at 59</a>
+[xi,yi,xo,yo,r]=discfis(fis,181);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',74,0)">plot>plot_OutputFcn at 74</a>
+plotfis(model);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',263,0)">gui_mainfcn at 263</a>
+        [varargout{1:nargout}] = feval(gui_State.gui_OutputFcn, gui_hFigure, [],
+        gui_Handles);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',40,0)">plot at 40</a>
+    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',86,0)">plot>closeplot_Callback at 86</a>
+delete(plot);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/plot.m',42,0)">plot at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)plot('closeplot_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Undefined function or variable "numOutputMFs".
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/showrule.m',59,0)">showrule at 59</a>
+totalOutputMFs=sum(numOutputMFs);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',384,0)">untitled>pushbutton9_Callback at 384</a>
+showrule(A)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pushbutton9_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',399,0)">untitled>pbPrec_Callback at 399</a>
+if(resFinal>0.92 && resFinal<2)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPrec_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Operands to the || and && operators must be convertible to logical scalar values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',399,0)">untitled>pbPrec_Callback at 399</a>
+if(resFinal>0.92 && resFinal<2)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPrec_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Error using ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/evalfis.m',63,0)">evalfis at 63</a>
+The first argument should have as many columns as input variables and
+as many rows as independent sets of input values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',241,0)">GUIMain>pdOkay_Callback at 241</a>
+res = evalfis([inpChestPain, inpBP, inpCholesterol, inpSugar, inpMaxRate,
+inpOldPeak],fModel);
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/GUIMain.m',42,0)">GUIMain at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)GUIMain('pdOkay_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+uiopen('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/op1.txt',1)
+uiopen('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/op1.txt',1)
+{??? Attempt to reference field of non-structure array.
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/fuzzy/fuzzy/showrule.m',50,0)">showrule at 50</a>
+numInputs=length(fis.input);
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',385,0)">untitled>pushbutton9_Callback at 385</a>
+showrule(A)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pushbutton9_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
+{??? Operands to the || and && operators must be convertible to logical
+scalar values.
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',400,0)">untitled>pbPrec_Callback at 400</a>
+if(resFinal>0.92 && resFinal<2)
+
+Error in ==> <a href="matlab: opentoline('/usr/local/MATLAB/R2011a/toolbox/matlab/guide/gui_mainfcn.m',96,0)">gui_mainfcn at 96</a>
+        feval(varargin{:});
+
+Error in ==> <a href="matlab: opentoline('/home/garima/Desktop/Heart-Disease-Diagnosis-System-master/untitled.m',42,0)">untitled at 42</a>
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in ==>
+@(hObject,eventdata)untitled('pbPrec_Callback',hObject,eventdata,guidata(hObject))
+
+} 
+??? Error while evaluating uicontrol Callback
+
