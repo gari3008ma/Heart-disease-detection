@@ -3,28 +3,6 @@ function varargout = GUIMain(varargin)
 %      GUIMAIN, by itself, creates a new GUIMAIN or raises the existing
 %      singleton*.
 %
-%      H = GUIMAIN returns the handle to a new GUIMAIN or the handle to
-%      the existing singleton*.
-%
-%      GUIMAIN('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in GUIMAIN.M with the given input arguments.
-%
-%      GUIMAIN('Property','Value',...) creates a new GUIMAIN or raises the
-%      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before GUIMain_OpeningFcn gets called.  An
-%      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to GUIMain_OpeningFcn via varargin.
-%
-%      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
-%      instance to run (singleton)".
-%
-% See also: GUIDE, GUIDATA, GUIHANDLES
-
-% Edit the above text to modify the response to help GUIMain
-
-% Last Modified by GUIDE v2.5 12-Nov-2014 13:37:57
-
-% Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
